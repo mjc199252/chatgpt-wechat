@@ -8,16 +8,20 @@ require (
 	github.com/alibabacloud-go/ocr-api-20210707 v1.1.12
 	github.com/alibabacloud-go/tea v1.1.20
 	github.com/alibabacloud-go/tea-utils/v2 v2.0.1
+	github.com/dlclark/regexp2 v1.9.0
 	github.com/go-playground/locales v0.14.1
 	github.com/go-playground/universal-translator v0.18.1
 	github.com/go-playground/validator/v10 v10.11.2
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/golang-jwt/jwt/v4 v4.4.3
+	github.com/google/uuid v1.3.0
+	github.com/milvus-io/milvus-sdk-go/v2 v2.2.1
 	github.com/pkg/errors v0.9.1
-	github.com/xen0n/go-workwx v1.3.1
+	github.com/sashabaranov/go-openai v1.9.0
+	github.com/whyiyhw/go-workwx v0.0.9
 	github.com/zeromicro/go-zero v1.4.4
 	golang.org/x/crypto v0.5.0
-	golang.org/x/net v0.5.0
+	golang.org/x/net v0.8.0
 )
 
 require (
@@ -40,7 +44,7 @@ require (
 	github.com/go-sql-driver/mysql v1.7.0 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/pprof v0.0.0-20211214055906-6f57359322fd // indirect
-	github.com/google/uuid v1.3.0 // indirect
+	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.7.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/lann/builder v0.0.0-20180802200727-47ae307949d0 // indirect
@@ -49,6 +53,7 @@ require (
 	github.com/mattn/go-colorable v0.1.9 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.2-0.20181231171920-c182affec369 // indirect
+	github.com/milvus-io/milvus-proto/go-api v0.0.0-20230301092744-7efc6eec15fd // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/openzipkin/zipkin-go v0.4.0 // indirect
@@ -70,8 +75,8 @@ require (
 	go.opentelemetry.io/otel/trace v1.10.0 // indirect
 	go.opentelemetry.io/proto/otlp v0.19.0 // indirect
 	go.uber.org/automaxprocs v1.5.1 // indirect
-	golang.org/x/sys v0.4.0 // indirect
-	golang.org/x/text v0.6.0 // indirect
+	golang.org/x/sys v0.6.0 // indirect
+	golang.org/x/text v0.8.0 // indirect
 	google.golang.org/genproto v0.0.0-20221111202108-142d8a6fa32e // indirect
 	google.golang.org/grpc v1.50.1 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
